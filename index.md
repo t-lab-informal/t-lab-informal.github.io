@@ -1,3 +1,3 @@
 # t-labについて
 
-カウントダウンタイマーは[こちら]()
+カウントダウンタイマーは[こちら](https://t-lab-informal.github.io/CountDownTimer/)

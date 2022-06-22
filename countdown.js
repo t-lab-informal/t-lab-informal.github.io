@@ -32,20 +32,14 @@ function calcRemainingTime() {
   const diff1 = EndTime1 - NowTime;
   const diff2 = EndTime2 - NowTime;
   //計算
-  d1 = Math.floor(diff1 / (24 * 60 * 60 * 1000));
-  //h1 = Math.floor(diff1 / (60 * 60 * 1000)) % 24;
-  h1 = Math.floor(diff1 / 1000 / 60 / 60);
-  //m1 = Math.floor(diff1 / (60 * 1000)) % 24 % 60;
+  d1 = Math.floor(diff1 / 24 / 60 / 60 / 1000);
+  h1 = Math.floor(diff1 / 1000 / 60 / 60) % 24;
   m1 = Math.floor(diff1 / 1000 / 60) % 60;
-  //s1 = Math.floor(diff1 / 1000) % 24 % 60 % 60;
   s1 = Math.floor(diff1 / 1000) % 60;
 
-  d2 = Math.floor(diff2 / (24 * 60 * 60 * 1000));
-  //h1 = Math.floor(diff1 / (60 * 60 * 1000)) % 24;
-  h2 = Math.floor(diff2 / 1000 / 60 / 60);
-  //m1 = Math.floor(diff1 / (60 * 1000)) % 24 % 60;
+  d2 = Math.floor(diff2 / 24 / 60 / 60 / 1000);
+  h2 = Math.floor(diff2 / 1000 / 60 / 60) % 24;
   m2 = Math.floor(diff2 / 1000 / 60) % 60;
-  //s1 = Math.floor(diff1 / 1000) % 24 % 60 % 60;
   s2 = Math.floor(diff2 / 1000) % 60;
   //表示
   displayTime1(diff1);

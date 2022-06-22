@@ -4,3 +4,4 @@ theme: jekyll-theme-slate
 title: "t-lab非公式まとめ"
 description: "徒然な"
 logo: img/
+site_favicon: img/icon.png

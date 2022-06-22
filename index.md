@@ -1,3 +1,9 @@
+<html>
+	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="img/icon.png">
+	</head>
+</html>
+
 # t-labについて
 
 カウントダウンタイマーは[こちらから](https://t-lab-informal.github.io/CountDownTimer/)

@@ -5,13 +5,14 @@
 カウントダウンタイマーは[こちらから](https://t-lab-informal.github.io/CountDownTimer.html)
 
 
-<!DOCTYPE html>
 <html>
   <body>
     <div class="first-timer" id="first-timer">
+      <h1>修士論文提出まで残り...
       <div class="count-down-timer1" id="count_down_timer1"></div>
     </div>
     <div class="secound-timer" id="secound-timer">
+      <h1>卒業論文提出まで残り...
       <div class="count-down-timer2" id="count_down_timer2"></div>
     </div>
   </body>

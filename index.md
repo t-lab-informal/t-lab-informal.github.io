@@ -6,9 +6,6 @@
 
 
 <html>
-  <head>
-    <script typt='text/javascript' src='./countdown.js'>
-  </head>
   <body>
     <div class="first-timer" id="first-timer">
       <h2>修士論文提出まで残り...</h2>
@@ -20,3 +17,5 @@
     </div>
   </body>
 </html>
+
+<script typt='text/javascript' src='./countdown.js'>

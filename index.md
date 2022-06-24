@@ -1,21 +1,13 @@
 # t-labについて
 
-カウントダウンタイマーは[こちらから](https://t-lab-informal.github.io/CountDownTimer/)
+このサイトはt-labによる非公式サイトです。  
+自分たちの興味があるものを作成したり、wikiを公開したりしています。  
+興味がある方は是非御覧ください。
 
-カウントダウンタイマーは[こちらから](https://t-lab-informal.github.io/CountDownTimer.html)
+## アプリケーション
 
+- 「お前ら卒業したいか！！！」は[こちらから](https://t-lab-informal.github.io/CountDownTimer/)
 
-<html>
-  <body>
-    <div class="first-timer" id="first-timer">
-      <h2>修士論文提出まで残り...</h2>
-      <h1><div class="count-down-timer1" id="count_down_timer1"></div></h1>
-    </div>
-    <div class="secound-timer" id="secound-timer">
-      <h2>卒業論文提出まで残り...</h2>
-      <h1><div class="count-down-timer2" id="count_down_timer2"></div></h1>
-    </div>
-  </body>
-</html>
+## Wiki
 
-<script typt='text/javascript' src='./countdown.js'>
+- 構築チュウ

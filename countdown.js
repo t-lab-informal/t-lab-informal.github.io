@@ -1,6 +1,6 @@
 //カウントダウンの終了日時を指定
-const EndTime1 = new Date("2023/2/15 09:00:00");
-const EndTime2 = new Date("2023/3/15 09:00:00");
+const EndTime1 = new Date("2024/2/15 09:00:00");
+const EndTime2 = new Date("2024/3/15 09:00:00");
 //タイマーを表示する要素
 const output1 = document.getElementById("count_down_timer1");
 const output2 = document.getElementById("count_down_timer2");
